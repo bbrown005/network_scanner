@@ -6,7 +6,7 @@ import argparse
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.addargument("-t", "--target", dest="target", help="Target IP / IP Range")
+    parser.add_argument("-t", "--target", dest="target", help="Target IP / IP Range.")
     options = parser.parse_args()
     return options
 # end get_arguments
